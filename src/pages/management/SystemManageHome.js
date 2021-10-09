@@ -57,15 +57,17 @@ class SystemManageHome extends React.Component {
         const { gutterKey, vgutterKey, colCountKey } = this.state;
         if (0 === this.state.selectedMenuCode) {
             return (
-                <>
+                <div className="home-page">
                     <Row gutter={[gutters[gutterKey], vgutters[vgutterKey]]}>
                         {this.renderContent()}
                     </Row>
-                </>
+                </div>
             );
         } else if (10 === this.state.selectedMenuCode) {
             return (
-                <SystemSetting />
+                <div className="home-page">
+                    <SystemSetting />
+                </div>
             )
         }
     }

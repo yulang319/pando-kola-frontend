@@ -1,8 +1,8 @@
-[class~="ant-col"] {
+.home-page [class~="ant-col"] {
     background: transparent;
     border: 0;
 }
-[class~="ant-col"] > div {
+.home-page [class~="ant-col"] > div {
     height: 120px;
     font-size: 20px;
     line-height: 120px;
@@ -11,18 +11,18 @@
     color: white;
     text-align: center;
 }
-pre {
+.home-page .pre {
     padding: 8px 16px;
     font-size: 13px;
     background: #f9f9f9;
     border-radius: 6px;
 }
-pre.demo-code {
+.home-page pre.demo-code {
     direction: ltr;
 }
-.ant-col {
+.home-page .ant-col {
     padding: 0;
 }
-[data-theme="dark"] [class~="ant-col"] > div {
+.home-page [data-theme="dark"] [class~="ant-col"] > div {
     background: #028ac8;
 }
