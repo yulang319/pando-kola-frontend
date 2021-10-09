@@ -1,0 +1,43 @@
+.searchRoot {
+    position: relative;
+    width: 608px;
+    height: 300px;
+    padding-top: 170px;
+
+    text-align: center;
+
+    margin: 0 auto;
+}
+
+.title {
+    font-size: 30px;
+}
+
+.input {
+    width: 512px;
+}
+
+.input::before {
+    position: absolute;
+    top: 5px;
+    left: 5px;
+    content: '';
+    background: url('../img/search_icon.png') no-repeat;
+    background-size: contain;
+
+    width: 30px;
+    height: 30px;
+    border-radius: 35px;
+}
+
+/* .search_root::before {
+    position: absolute;
+    left: 0px;
+    top: 0px;
+
+    content: '';
+    background: url('../img/search-icon.png') no-repeat;
+    width: 19px;
+    height: 19px;
+    background-size: contain;
+} */

@@ -21,3 +21,8 @@ export const getAllSystemSettingByPage = (pageStart, pageLimit) => httpQuery(fal
         pageLimit: pageLimit
     }
 )
+// 测试搜索
+export const testSearch = (text) => httpQuery(true, "http://192.168.133.213:8901/pandokola/testSearch",
+    {
+        text: text
+    })

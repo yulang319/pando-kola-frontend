@@ -7,7 +7,7 @@ import SearchHome from './pages/SearchHome'
 
 ReactDOM.render(
   /* <React.StrictMode> */
-  <Home />,
+  <SearchHome />,
   /* </React.StrictMode>, */
   document.getElementById('root')
 );
