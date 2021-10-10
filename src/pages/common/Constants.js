@@ -5,7 +5,7 @@ function httpQuery(isPost, url, params) {
         method: isPost ? 'post' : 'get',
         url: url,
         params: undefined !== params ? params : '',
-        timeout: 500
+        timeout: 5000
     })
 }
 
@@ -22,7 +22,7 @@ export const getAllSystemSettingByPage = (pageStart, pageLimit) => httpQuery(fal
     }
 )
 // 测试搜索
-export const testSearch = (text) => httpQuery(true, "http://192.168.133.213:8901/pandokola/testSearch",
+export const testSearch = (text) => httpQuery(true, "http://127.0.0.1:8901/pandokola/testSearch",
     {
         text: text
     })
