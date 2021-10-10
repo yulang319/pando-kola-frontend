@@ -33,7 +33,7 @@ function SearchHome(props) {
 
     return (
         <div className='searchRoot'>
-            <div className='title'>PDFSOSO</div>
+            <div className='title'>资源社区</div>
             <Form
                 name="basic"
                 layout='inline'
